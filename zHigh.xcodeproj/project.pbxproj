@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606504FB1A3DF53B00E69808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606504FA1A3DF53B00E69808 /* AppDelegate.swift */; };
+		606504FD1A3DF53B00E69808 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 606504FC1A3DF53B00E69808 /* GameScene.sks */; };
+		606504FF1A3DF53B00E69808 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606504FE1A3DF53B00E69808 /* GameScene.swift */; };
+		606505011A3DF53B00E69808 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606505001A3DF53B00E69808 /* GameViewController.swift */; };
+		606505041A3DF53B00E69808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606505021A3DF53B00E69808 /* Main.storyboard */; };
+		606505061A3DF53B00E69808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606505051A3DF53B00E69808 /* Images.xcassets */; };
+		606505091A3DF53B00E69808 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606505071A3DF53B00E69808 /* LaunchScreen.xib */; };
+		606505151A3DF53B00E69808 /* zHighTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606505141A3DF53B00E69808 /* zHighTests.swift */; };
+		6068DB1B1A401CEF00BDAAFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068DB1A1A401CEF00BDAAFD /* Constants.swift */; };
+		6068DB1D1A4022DC00BDAAFD /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068DB1C1A4022DC00BDAAFD /* Button.swift */; };
+		6068DB1F1A402FF000BDAAFD /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068DB1E1A402FF000BDAAFD /* play_button.png */; };
+		6068DB211A40355B00BDAAFD /* play_button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068DB201A40355B00BDAAFD /* play_button2.png */; };
+		6068DB231A4071DF00BDAAFD /* back-test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068DB221A4071DF00BDAAFD /* back-test1.png */; };
+		6068DB251A4077C100BDAAFD /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068DB241A4077C100BDAAFD /* Obstacle.swift */; };
+		608C50001A3F2D0F00DB9CF3 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C4FFD1A3F2D0F00DB9CF3 /* Background.png */; };
+		608C50051A3F2D4C00DB9CF3 /* Background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 608C50031A3F2D4C00DB9CF3 /* Background2.jpg */; };
+		608C50061A3F2D4C00DB9CF3 /* Background3.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C50041A3F2D4C00DB9CF3 /* Background3.png */; };
+		608C50091A3F370800DB9CF3 /* BotPipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C50071A3F370800DB9CF3 /* BotPipe.png */; };
+		608C500A1A3F370800DB9CF3 /* TopPipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C50081A3F370800DB9CF3 /* TopPipe.png */; };
+		608C500C1A3F3EB500DB9CF3 /* zalando-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C500B1A3F3EB500DB9CF3 /* zalando-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6065050F1A3DF53B00E69808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 606504ED1A3DF53B00E69808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 606504F41A3DF53B00E69808;
+			remoteInfo = zHigh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		606504F51A3DF53B00E69808 /* zHigh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zHigh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		606504F91A3DF53B00E69808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606504FA1A3DF53B00E69808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		606504FC1A3DF53B00E69808 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		606504FE1A3DF53B00E69808 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		606505001A3DF53B00E69808 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		606505031A3DF53B00E69808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		606505051A3DF53B00E69808 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		606505081A3DF53B00E69808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6065050E1A3DF53B00E69808 /* zHighTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zHighTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		606505131A3DF53B00E69808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		606505141A3DF53B00E69808 /* zHighTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zHighTests.swift; sourceTree = "<group>"; };
+		6068DB1A1A401CEF00BDAAFD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6068DB1C1A4022DC00BDAAFD /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		6068DB1E1A402FF000BDAAFD /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		6068DB201A40355B00BDAAFD /* play_button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button2.png; sourceTree = "<group>"; };
+		6068DB221A4071DF00BDAAFD /* back-test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-test1.png"; sourceTree = "<group>"; };
+		6068DB241A4077C100BDAAFD /* Obstacle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		608C4FFD1A3F2D0F00DB9CF3 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		608C50031A3F2D4C00DB9CF3 /* Background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background2.jpg; sourceTree = "<group>"; };
+		608C50041A3F2D4C00DB9CF3 /* Background3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background3.png; sourceTree = "<group>"; };
+		608C50071A3F370800DB9CF3 /* BotPipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BotPipe.png; sourceTree = "<group>"; };
+		608C50081A3F370800DB9CF3 /* TopPipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopPipe.png; sourceTree = "<group>"; };
+		608C500B1A3F3EB500DB9CF3 /* zalando-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zalando-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606504F21A3DF53B00E69808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6065050B1A3DF53B00E69808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606504EC1A3DF53B00E69808 = {
+			isa = PBXGroup;
+			children = (
+				606504F71A3DF53B00E69808 /* zHigh */,
+				606505111A3DF53B00E69808 /* zHighTests */,
+				606504F61A3DF53B00E69808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606504F61A3DF53B00E69808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606504F51A3DF53B00E69808 /* zHigh.app */,
+				6065050E1A3DF53B00E69808 /* zHighTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606504F71A3DF53B00E69808 /* zHigh */ = {
+			isa = PBXGroup;
+			children = (
+				608C4FFC1A3F2D0F00DB9CF3 /* Images */,
+				606504FA1A3DF53B00E69808 /* AppDelegate.swift */,
+				6068DB1C1A4022DC00BDAAFD /* Button.swift */,
+				6068DB1A1A401CEF00BDAAFD /* Constants.swift */,
+				606504FC1A3DF53B00E69808 /* GameScene.sks */,
+				606504FE1A3DF53B00E69808 /* GameScene.swift */,
+				606505001A3DF53B00E69808 /* GameViewController.swift */,
+				606505021A3DF53B00E69808 /* Main.storyboard */,
+				606505051A3DF53B00E69808 /* Images.xcassets */,
+				606505071A3DF53B00E69808 /* LaunchScreen.xib */,
+				6068DB241A4077C100BDAAFD /* Obstacle.swift */,
+				606504F81A3DF53B00E69808 /* Supporting Files */,
+			);
+			path = zHigh;
+			sourceTree = "<group>";
+		};
+		606504F81A3DF53B00E69808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				606504F91A3DF53B00E69808 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		606505111A3DF53B00E69808 /* zHighTests */ = {
+			isa = PBXGroup;
+			children = (
+				606505141A3DF53B00E69808 /* zHighTests.swift */,
+				606505121A3DF53B00E69808 /* Supporting Files */,
+			);
+			path = zHighTests;
+			sourceTree = "<group>";
+		};
+		606505121A3DF53B00E69808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				606505131A3DF53B00E69808 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		608C4FFC1A3F2D0F00DB9CF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6068DB221A4071DF00BDAAFD /* back-test1.png */,
+				6068DB201A40355B00BDAAFD /* play_button2.png */,
+				6068DB1E1A402FF000BDAAFD /* play_button.png */,
+				608C500B1A3F3EB500DB9CF3 /* zalando-logo.png */,
+				608C50071A3F370800DB9CF3 /* BotPipe.png */,
+				608C50081A3F370800DB9CF3 /* TopPipe.png */,
+				608C50031A3F2D4C00DB9CF3 /* Background2.jpg */,
+				608C50041A3F2D4C00DB9CF3 /* Background3.png */,
+				608C4FFD1A3F2D0F00DB9CF3 /* Background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606504F41A3DF53B00E69808 /* zHigh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606505181A3DF53B00E69808 /* Build configuration list for PBXNativeTarget "zHigh" */;
+			buildPhases = (
+				606504F11A3DF53B00E69808 /* Sources */,
+				606504F21A3DF53B00E69808 /* Frameworks */,
+				606504F31A3DF53B00E69808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zHigh;
+			productName = zHigh;
+			productReference = 606504F51A3DF53B00E69808 /* zHigh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6065050D1A3DF53B00E69808 /* zHighTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6065051B1A3DF53B00E69808 /* Build configuration list for PBXNativeTarget "zHighTests" */;
+			buildPhases = (
+				6065050A1A3DF53B00E69808 /* Sources */,
+				6065050B1A3DF53B00E69808 /* Frameworks */,
+				6065050C1A3DF53B00E69808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				606505101A3DF53B00E69808 /* PBXTargetDependency */,
+			);
+			name = zHighTests;
+			productName = zHighTests;
+			productReference = 6065050E1A3DF53B00E69808 /* zHighTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606504ED1A3DF53B00E69808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zalando;
+				TargetAttributes = {
+					606504F41A3DF53B00E69808 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6065050D1A3DF53B00E69808 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 606504F41A3DF53B00E69808;
+					};
+				};
+			};
+			buildConfigurationList = 606504F01A3DF53B00E69808 /* Build configuration list for PBXProject "zHigh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606504EC1A3DF53B00E69808;
+			productRefGroup = 606504F61A3DF53B00E69808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606504F41A3DF53B00E69808 /* zHigh */,
+				6065050D1A3DF53B00E69808 /* zHighTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		606504F31A3DF53B00E69808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608C50051A3F2D4C00DB9CF3 /* Background2.jpg in Resources */,
+				608C50091A3F370800DB9CF3 /* BotPipe.png in Resources */,
+				6068DB211A40355B00BDAAFD /* play_button2.png in Resources */,
+				606505091A3DF53B00E69808 /* LaunchScreen.xib in Resources */,
+				606505061A3DF53B00E69808 /* Images.xcassets in Resources */,
+				608C500A1A3F370800DB9CF3 /* TopPipe.png in Resources */,
+				6068DB231A4071DF00BDAAFD /* back-test1.png in Resources */,
+				608C50001A3F2D0F00DB9CF3 /* Background.png in Resources */,
+				606504FD1A3DF53B00E69808 /* GameScene.sks in Resources */,
+				608C50061A3F2D4C00DB9CF3 /* Background3.png in Resources */,
+				608C500C1A3F3EB500DB9CF3 /* zalando-logo.png in Resources */,
+				606505041A3DF53B00E69808 /* Main.storyboard in Resources */,
+				6068DB1F1A402FF000BDAAFD /* play_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6065050C1A3DF53B00E69808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606504F11A3DF53B00E69808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6068DB1D1A4022DC00BDAAFD /* Button.swift in Sources */,
+				606504FF1A3DF53B00E69808 /* GameScene.swift in Sources */,
+				6068DB251A4077C100BDAAFD /* Obstacle.swift in Sources */,
+				606505011A3DF53B00E69808 /* GameViewController.swift in Sources */,
+				606504FB1A3DF53B00E69808 /* AppDelegate.swift in Sources */,
+				6068DB1B1A401CEF00BDAAFD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6065050A1A3DF53B00E69808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606505151A3DF53B00E69808 /* zHighTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		606505101A3DF53B00E69808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 606504F41A3DF53B00E69808 /* zHigh */;
+			targetProxy = 6065050F1A3DF53B00E69808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		606505021A3DF53B00E69808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606505031A3DF53B00E69808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		606505071A3DF53B00E69808 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				606505081A3DF53B00E69808 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		606505161A3DF53B00E69808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		606505171A3DF53B00E69808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606505191A3DF53B00E69808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = zHigh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6065051A1A3DF53B00E69808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = zHigh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6065051C1A3DF53B00E69808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zHighTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zHigh.app/zHigh";
+			};
+			name = Debug;
+		};
+		6065051D1A3DF53B00E69808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zHighTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zHigh.app/zHigh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606504F01A3DF53B00E69808 /* Build configuration list for PBXProject "zHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606505161A3DF53B00E69808 /* Debug */,
+				606505171A3DF53B00E69808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606505181A3DF53B00E69808 /* Build configuration list for PBXNativeTarget "zHigh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606505191A3DF53B00E69808 /* Debug */,
+				6065051A1A3DF53B00E69808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6065051B1A3DF53B00E69808 /* Build configuration list for PBXNativeTarget "zHighTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6065051C1A3DF53B00E69808 /* Debug */,
+				6065051D1A3DF53B00E69808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606504ED1A3DF53B00E69808 /* Project object */;
+}
